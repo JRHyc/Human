@@ -9,6 +9,7 @@ namespace Human
             Human jeff = new Human("Jeff");
             Human joanna = new Human("Joanna");
             Wizard gandalf = new Wizard("Gandalf");
+            Wizard dumbledore = new Wizard("Dumbledore");
             Ninja raphael = new Ninja("Raphael");
             Samurai hanzo = new Samurai("Hanzo");
             
@@ -17,6 +18,7 @@ namespace Human
             raphael.steal(joanna);
             raphael.getAway();
             hanzo.deathBlow(joanna);
+            dumbledore.fireball(raphael);
 
         }
     }

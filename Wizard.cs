@@ -20,7 +20,7 @@ namespace Human
                 Random rand = new Random();
                 int damage = rand.Next(20,51);
                 enemy.health -= damage;
-                System.Console.WriteLine("{0} took a fireball to the face from {1}. Health is now {2}.", enemy.name, name, enemy.health);
+                System.Console.WriteLine("{0} took a fireball to the face from {1} for {3} damaga!. Health is now {2}.", enemy.name, name, enemy.health, damage);
             }
         }
     }
