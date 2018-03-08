@@ -8,8 +8,16 @@ namespace Human
         {
             Human jeff = new Human("Jeff");
             Human joanna = new Human("Joanna");
-            System.Console.WriteLine(jeff.health);
+            Wizard gandalf = new Wizard("Gandalf");
+            Ninja raphael = new Ninja("Raphael");
+            Samurai hanzo = new Samurai("Hanzo");
+            
             joanna.Attack(jeff);
+            gandalf.fireball(joanna);
+            raphael.steal(joanna);
+            raphael.getAway();
+            hanzo.deathBlow(joanna);
+
         }
     }
 }
